@@ -1,0 +1,16 @@
+name: first-workflow  # name of the workflow
+
+on: workflow_dispatch
+
+jobs:
+  first-job:  # name of the job
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Hello
+        run: echo "Hello Sheemab"
+
+      - name: Bye
+        run: echo "Bye Sheemab"
+      
+     
